@@ -25,6 +25,6 @@
     "noUnusedParameters": true,
     "types": ["node", "vitest/globals"]
   },
-  "include": ["packages"],
+  "include": ["vitest.setup.ts", "packages"],
   "exclude": ["**/node_modules", "**/dist", ".storybook", ".vscode"]
 }

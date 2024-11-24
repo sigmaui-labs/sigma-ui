@@ -45,9 +45,7 @@
     "@storybook/cli": "^8.3.5",
     "@storybook/react": "^8.3.5",
     "@storybook/react-vite": "^8.3.5",
-    "@storybook/test": "8.3.5",
     "@storybook/theming": "^8.3.5",
-    "prop-types": "^15.8.1",
     "storybook": "^8.3.5",
     "storybook-dark-mode": "^4.0.2"
   },

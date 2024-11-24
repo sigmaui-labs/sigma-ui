@@ -9,6 +9,7 @@
   "author": "Nicholas Novak (Aka) Webnerdie",
   "license": "MIT",
   "scripts": {
+    "test": "vitest",
     "storybook": "pnpm --filter @sigmaui-labs/storybook dev",
     "storybook:clean": "pnpm --filter @sigmaui-labs/storybook clean",
     "storybook:build": "pnpm --filter @sigmaui-labs/storybook build",
@@ -28,12 +29,21 @@
     "@babel/core": "^7.25.7",
     "@babel/eslint-parser": "^7.25.7",
     "@storybook/react": "^8.3.5",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
     "eslint": "^9.11.1",
+    "jsdom": "^25.0.1",
     "lint-staged": "^15.2.10",
+    "plop": "^4.0.1",
     "prettier": "^3.3.3",
+    "tsup": "^8.3.0",
     "tsx": "^4.19.1",
     "typescript": "^5.6.2",
-    "vite": "^5.4.8"
+    "vite": "^5.4.8",
+    "vitest": "^2.1.3",
+    "vitest-axe": "^0.1.0",
+    "vitest-matchmedia-mock": "^1.0.6"
   },
   "packageManager": "pnpm@9.11.0",
   "engines": {

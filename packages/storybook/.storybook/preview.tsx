@@ -113,19 +113,19 @@ const argTypes: Preview["argTypes"] = {
   // Setting default categories for our commonProps
   customClass: {
     table: {
-      category: 'Developer controls',
+      category: 'Editor controls',
       subcategory: 'Common',
     },
   },
   customId: {
     table: {
-      category: 'Developer controls',
+      category: 'Editor controls',
       subcategory: 'Common',
     },
   },
   themeOverride: {
     table: {
-      category: 'Developer controls',
+      category: 'Editor controls',
       subcategory: 'Common',
     },
     control: 'radio',
